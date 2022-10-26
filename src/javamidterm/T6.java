@@ -18,10 +18,10 @@ public class T6 {
     public static void main(String[] args) {
         // TODO code application logic here
         
-        Scanner scn = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         System.out.print("輸入值為:");
-        String in = scn.next();
-        String nc = in.replaceAll("\\p{Punct}", "");
+        String num = sc.next();
+        String nc = num.replaceAll("\\p{Punct}", "");
         int len = nc.length();
         int[] arr = new int[len];
 
